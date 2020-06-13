@@ -1,0 +1,25 @@
+.buttonsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 0.2em;
+    column-gap: 0.2em;
+    row-gap: 0.2em;
+}
+
+button {
+    width: 100%;
+    color: black;
+    background-color: white;
+    border: black solid 0.1em;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover, button:active {
+    color: white;
+    background-color: black;
+}

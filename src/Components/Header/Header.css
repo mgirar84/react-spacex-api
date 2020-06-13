@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    margin: 0.5em 0 2em 0;
+}
+
+.spaceXLogo {
+    width: 50%;
+    position: relative;
+    left: 2em;
+}

@@ -1,0 +1,36 @@
+.shipsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 0.2em;
+    row-gap: 0.2em;
+    justify-self: center;
+    margin: 0.2em auto;
+  }
+  
+  .shipCard {
+    justify-self: stretch;
+    border: black solid 0.1em;
+    min-width: 33%;
+  }
+
+  .shipHeading {
+    text-align: center;
+    width: 90%;
+    margin: 1em auto;
+  }
+  
+  .shipImage {
+    border: black solid 0.1em;
+    width: 90%;
+    height: 20em;
+    background-repeat: no-repeat;
+	  background-size: cover;
+    background-position: center;
+    margin: auto;
+  }
+
+  .shipInfo {
+    width: 90%;
+    margin: 0.5em auto;
+  }

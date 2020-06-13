@@ -1,0 +1,17 @@
+.missionContainer {
+    margin-top: 0.2em;
+    margin-bottom: 2.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0.2em;
+    row-gap: 0.2em;
+}
+
+.missionCard {
+    border: 0.1em solid black;
+    padding: 1em;
+}
+
+.missionCard h2 {
+    margin-top: 0;
+}
