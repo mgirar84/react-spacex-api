@@ -7,6 +7,10 @@
 }
 
 button {
+    cursor: pointer;
+}
+
+.navButton {
     width: 100%;
     color: black;
     background-color: white;
@@ -19,7 +23,7 @@ button {
     cursor: pointer;
 }
 
-button:hover, button:active {
+.navButton:hover, button:active {
     color: white;
     background-color: black;
 }

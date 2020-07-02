@@ -2,10 +2,6 @@ import React from 'react';
 import './RoadsterCard.css';
 
 class RoadsterCard extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
 	render() {
         console.log(this.props.roadster)
         return (

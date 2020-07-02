@@ -3,10 +3,6 @@ import './ShipCard.css';
 import '../../../../Images/spacex.jpg';
 
 class ShipCard extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
 	render() {
         return (
             <div class="shipsContainer">

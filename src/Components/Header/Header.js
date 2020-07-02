@@ -1,17 +1,17 @@
 import React from 'react';
 import './Header.css';
 import '/public/SpaceX-Logo.svg'
+import {Link} from 'react-router-dom'
+
 
 class Header extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
 	render() {
         return (
-            <div class="header">
-                <img class="spaceXLogo" src="SpaceX-Logo.svg" alt="Space X"/>
-            </div>
+            <Link to="/">
+                <div class="header">
+                    <img class="spaceXLogo" src="SpaceX-Logo.svg" alt="Space X"/>
+                </div>
+            </Link>
         )
 	}
 };

@@ -2,10 +2,6 @@ import React from 'react';
 import './MissionCard.css';
 
 class MissionCard extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
 	render() {
         return (
             <div class="missionContainer">
