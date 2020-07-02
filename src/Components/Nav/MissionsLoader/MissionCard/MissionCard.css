@@ -15,3 +15,7 @@
 .missionCard h2 {
     margin-top: 0;
 }
+
+.missionDescription {
+    text-align: justify;
+}

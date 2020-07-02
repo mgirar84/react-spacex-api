@@ -11,7 +11,7 @@ class RoadsterCard extends React.Component {
                     <div class="roadsterCard">
                         <div class="roadsterText">
                             <h2>{this.props.roadster.name}</h2>
-                            <p>{this.props.roadster.details}</p>
+                            <p class="roadsterDetails">{this.props.roadster.details}</p>
                         </div>
                         <div class="roadsterImage" style={{backgroundImage: (this.props.roadster.flickr_images[0] == null ? "url(spacex.jpg)" : "url(" + this.props.roadster.flickr_images[0] + ")")}}></div>
                     </div>   

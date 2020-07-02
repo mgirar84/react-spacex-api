@@ -12,7 +12,7 @@ class MissionCard extends React.Component {
                     this.props.missions.map((mission) => 
                         <div class="missionCard">
                             <h2>{mission.mission_name}</h2>
-                            <p>{mission.description}</p>
+                            <p class="missionDescription">{mission.description}</p>
                         </div>   
                     )}
                 </div>
