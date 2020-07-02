@@ -1,6 +1,6 @@
 .rocketContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
     grid-template-rows: auto;
     column-gap: 0.2em;
     row-gap: 0.2em;

@@ -1,6 +1,5 @@
 .shipsContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
     column-gap: 0.2em;
