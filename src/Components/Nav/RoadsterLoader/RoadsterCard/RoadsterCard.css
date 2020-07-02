@@ -15,9 +15,12 @@
 }
 
 .roadsterImage {
-    width: 100%;
     height: 15em;
+    width: 90%;
+    left: 50%;
+    margin: auto;
     background-repeat: no-repeat;
-	background-size: contain;
-    background-position: right;
+	background-size: cover;
+    background-position: center;
+    border: black solid 0.1em;
 }
