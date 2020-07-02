@@ -16,13 +16,13 @@ class Routing extends React.Component {
     return (
       <Router>
         <div>
-          <Route path="/react-spacex-api" component={ App } />
+          <Route path="/react-spacex-api/public/index.html" component={ App } />
           <Switch>
             <Route path="/rockets" component={ RocketsLoader } />
             <Route path="/missions" component={ MissionsLoader } />
             <Route path="/roadster" component={ RoadsterLoader } />
             <Route path="/ships" component={ ShipsLoader } />
-            <Route path="/react-spacex-api" component={ Intro } />
+            <Route path="/react-spacex-api/public/index.html" component={ Intro } />
           </Switch>
         </div>
       </Router>
